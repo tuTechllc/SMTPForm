@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <section class="container">
+            <div class="form-title">
+                <h1> Have a project in mind? </h1>
+                <h2> Let's make it a reality </h2>
+            </div>
+                <form action="#">
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <!-- <label for="name">Name</label> -->
+                            <input type="text" placeholder=" Name" id="name" class="item" autocomplete="off">
+                            <div class="error-txt"> Full Name can't be blank </div>
+                        </div>
+
+                        <div class="input-field field">
+                            <!-- <label for="email">Email</label> -->
+                            <input type="text" placeholder=" Email" id="email" class="item" autocomplete="off">
+                            <div class="error-txt email"> Email Address can't be blank </div>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <!-- <label for="phone">Phone</label> -->
+                            <input type="text" placeholder=" Phone Number" id="phone" class="item" autocomplete="off">
+                            <div class="error-txt"> Phone Number can't be blank </div>
+                        </div>
+
+                        <div class="input-field field">
+                            <!-- <label for="budget">Budget</label> -->
+                            <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                            <div class="error-txt"> Subject can't be blank </div>
+                        </div>
+                    </div>
+
+                        <div class="textarea-field field">
+                            <!-- <label for="message">Message</label> -->
+                            <textarea type="text" placeholder=" Message" id="message" cols="30" rows="10" class="item" autocomplete="off"></textarea>
+                            <div class="error-txt"> Message can't be blank </div>
+                        </div>
+
+                    <button type="submit">Send</button>
+                </form>
+        </section>
+        <!-- Link to SMTPJS -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <!-- Sweet Alert  -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Link to JS -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
